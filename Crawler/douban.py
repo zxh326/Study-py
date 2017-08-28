@@ -11,16 +11,6 @@ head = {
 }
 #依据自己cookie改一下
 cookie ={
-	'_pk_id.100001.4cf6': '11f49aa79faa6de3.1503542460.1.1503542460.1503542460.',
-	'_pk_ses.100001.4cf6': '*',
-	'bid':'riefSZhz0Qk',
-   	'ap':'1',
-   	'bid': 'riefSZhz0Qk',
-   	'ck': 'mm67',
-   	'dbcl2': '81629001:tBUh2FhUpB4',
-   	'ps': 'y',
-   	'push_doumail_num':'0',
-   	'push_noty_num': '0'
 }
 fp = open('zl.txt','w+',encoding='utf-8')
 def geSoup(url):
