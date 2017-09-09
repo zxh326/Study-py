@@ -1,4 +1,7 @@
 # coding:utf-8
+# 筛选法求素数
+# 算法思路：
+# 	某个数为素数，他的倍数都不是素数·mark
 import math
 MAX = 10000
 mark = [True] * (MAX + 1)
