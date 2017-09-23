@@ -13,13 +13,6 @@ header = {
 	'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063'
 }
 cookie = {
-   'aliyungf_tc':'AQAAAJZgTE/ehwsAF8RdfMpVGqySL04S',
-   'cap_id':'NDVmMTA5NWU5ODBlNGVkM2I5MjdkYWFiMDZhYTU0MWE=|1502347783|584ba2bd674166f0f1bc444162ab7c4d994d2334',
-   'd_c0':'ADBCy6bNMgyPTifFIfAmQWEEblOGLOlF7c0=|1502347783',
-   'q_c1':'f203e690d72e49079fcc368660153629|1502335516000|1502335516000',
-   'q_c1':'a9635deab0004763bbac36a74a459068|1502335516000|1502335516000',
-   'r_cap_id':'MzJhYzg4M2YzOWZjNDUxYThhZDNhMDQ5NDUwMGZiMTA=|1502347783|89dab2b2df4371cadf225e0b36d0d340929aabc4',
-   'z_c0':'Mi4wQURERFlWQ28xd2NBTUVMTHBzMHlEQmNBQUFCaEFsVk5JWS16V1FDWGlsa2JHRDJmZFBKQlRLRm1JQkkxRVpuNVBR|1502347809|37af63c2c66b6602816dd24fc5e0ebf24997716c'
  }
 def Getdata(url):
 	data = requests.get(url,headers=header,cookies=cookie).text
